@@ -1,0 +1,112 @@
+@media screen and (max-width: 1000px)
+{
+    .coll6-1{
+        border:0;
+    }
+
+    .coll6-3{
+        border:0;
+    }
+
+    .coll6-5{
+        border:0;
+    }
+}
+
+@media screen and (max-width: 768px)
+{
+    .meni .crta{
+        display: none;
+    }
+
+    .meni .navbar-inverse .navbar-nav>li>a {
+        line-height: 3;
+    }
+
+    .meni .navbar-inverse {
+       padding-top: 0px; 
+       background-color: rgba(0, 0, 0, 0.15);
+    }
+}
+
+@media screen and (max-width: 680px)
+{
+    .Karusel .item .tekst{
+        font-size: 80px;
+    }
+}
+
+@media screen and (max-width: 606px)
+{
+    .Karusel .item .tekst{
+        font-size: 70px;
+    }
+}
+
+@media screen and (max-width: 536px)
+{
+    .Karusel .item .tekst{
+        font-size: 65px;
+    }
+}
+@media screen and (max-width: 500px)
+{
+    .Karusel .item .tekst{
+        font-size: 60px;
+    }
+
+    .baner h1{
+        font-size: 30px;
+    }
+
+    .coll6 h1{
+        font-size: 25px;
+        padding-top: 0px;
+    }
+}
+
+@media screen and (max-width: 465px)
+{
+    .Karusel .item .tekst{
+        font-size: 55px;
+    }
+}
+
+@media screen and (max-width: 430px)
+{
+    .Karusel .item .tekst{
+        font-size: 47px;
+    }
+
+    .coll1 .tek{
+        margin: 40px 0px;
+    }
+
+    .coll1 .tek h2{
+        font-size: 22px;
+    }
+    
+    .coll1 .tek h4{
+        font-size: 15px;
+    }
+
+    .coll h1{
+        font-size: 22px;
+        font-weight: bold;
+    }
+
+}
+
+@media screen and (max-width: 375px)
+{
+    .Karusel .item .tekst{
+        font-size: 43px;
+    }
+}
+
+@media screen and (max-width: 340px)
+{
+    .Karusel .item .tekst{
+        font-size: 37px;
+    }
+}

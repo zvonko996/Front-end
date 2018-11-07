@@ -1,0 +1,475 @@
+
+.meni .affix {
+    top: 0;
+    width: 100%;
+    z-index: 999 !important;
+}
+
+
+
+.meni .affix ~ .container-fluid {
+   position: relative;
+   top: 0;
+}
+
+
+/* Meni bar */
+.meni .navbar-inverse .navbar-brand {
+    color: #ffffff;
+}
+
+.meni .navbar-inverse .navbar-brand h1{
+    font-size: 23px;
+    margin: 0;
+    padding: 0;
+}
+.meni .navbar-inverse .navbar-brand h3{
+    font-size: 12px;
+    margin: 0;
+    padding: 0;
+    
+}
+
+.meni .navbar>.container-fluid .navbar-brand {
+    margin-left: 0;
+}
+
+.meni .navbar-inverse {
+    background-color: #86202000;
+    border-color: #08080800;
+    padding-top: 50px;
+    border-radius: 0;
+}
+
+.background1{
+    background: url(../images/image2.jpg) fixed;
+    background-size: cover;
+    width: 100%;
+    height: auto;
+}
+
+.Karusel .item .tekst{
+    width: 100%;
+    font-size: 90px;
+    font-weight: bold;
+    color: white;
+    border-bottom: 5px solid aqua;
+}
+
+
+.Karusel .carousel-indicators {
+    position: relative;
+    bottom: 0px;
+    left: 0;
+    z-index: 16;
+    width: 100%;
+    padding-left: 0;
+    margin-left: 0%;
+    margin-top: 30px;
+    text-align: center;
+    list-style: none;
+}
+
+.Karusel{
+    padding: 75px 0px;
+}
+
+
+.meni .affix {
+    background-color: #000000 !important;
+    padding: 10px  !important;
+}
+
+.meni .navbar-inverse .navbar-nav>li>a {
+    color: #ffffff;
+    font-size: 18px;
+    padding: 0px 6px;
+    line-height: 4;
+}
+
+.meni .navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.active>a:hover {
+    color: #fff;
+    background-color: #08080800;
+}
+
+.meni .crta{
+    color: aqua;
+}
+
+.meni .navbar-inverse .navbar-nav>li>a:hover {
+    color: #969696;
+}
+
+.coll .row{
+text-align: center;
+}
+
+.coll .row p{
+    color: rgb(109, 109, 109);
+    }
+
+.coll .row h3{
+    color: rgb(63, 61, 61);
+    }
+
+.coll1 {
+    text-align: center;
+
+}
+
+.coll1 h4{
+    color: rgb(63, 61, 61);
+}
+
+.coll1 .tek{
+    margin: 70px 0px;
+}
+
+.coll2 .collTe .slicice{
+    height: 70px;
+    width: 70px;
+    display: block;
+    margin: 20px auto;
+    padding: 0px;
+    border: solid 2px rgb(255, 255, 255);
+    border-radius: 50%;
+}
+
+.sl{
+    margin-bottom: 70px;
+}
+
+.sl img
+{
+    display: block;
+    margin: auto;
+}
+
+
+.coll2 .collTe{
+    text-align: center;
+    color: white;
+}
+.coll2 .collTe h4{
+    text-align: center;
+    font-weight: bold;
+}
+
+.slicice .fa {
+display: block;
+margin: auto;
+line-height: 2;
+font-size: 35px;
+}
+
+.coll2{
+    background: url(../images/image2.jpg) fixed;
+    background-size: cover;
+    width: 100%;
+    height: auto;
+    padding: 20px  auto;
+}
+
+
+.coll3 {
+    text-align: center;
+}
+
+.coll3 p{
+    font-size: 20px;
+}
+
+.razm{
+    padding: 70px 50px;
+}
+
+.razm1{
+    padding: 30px 0px;
+}
+
+.tekstic1 h3 {
+    font-size: 28px;
+    color: #000000;
+    font-weight: 400;
+}
+
+.tekstic1 h4{
+    margin-top: 15px;
+    font-size: 16px;
+    color: #2f2f2f;
+    font-weight: 300;
+}
+
+
+.coll4 img{
+    display: block;
+    margin: auto;
+}
+
+.coll4{
+    text-align: center;
+}
+
+.coll4 p{
+    font-size: 13px;
+    color: #a9a9a9;
+}
+
+.coll4 h6{
+    font-size: 13px;
+    color: #666;
+    line-height: 20px;
+    margin: 0px;
+}
+
+.coll4 h5{
+    font-size: 20px;
+    color: #000000;
+}
+
+.collTe1 a {
+color: black;
+text-decoration: none;
+padding: 1px 5px;
+font-size: 15px;
+}
+
+.collTe1 a:hover {
+    color: rgb(3, 79, 141);
+    }
+
+
+    .chart {
+        margin: 0 auto;
+        position: relative;
+        width: 70px;
+        height: 70px;
+        text-align: center;
+    }
+
+    .chart canvas {
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+
+    .coll5{
+        text-align: center;
+    }
+
+    .coll5 .coll5-2 span
+    {
+        display: block;
+        margin: auto;
+        font-size: 24px;
+        line-height: 70px;
+        width: 70px;
+        height: 70px;
+        border: 2px solid;
+        border-radius: 50%;
+    }
+
+    .coll5 .coll5-2 h3{
+        margin-top: 22px;
+        font-size: 20px;
+        color: #2f2f2f;
+        font-weight: 300;
+    }
+
+    .coll5-2{
+        margin-bottom: 50px;
+    }
+
+    #usluge{
+        padding-top: 50px;
+    }
+
+    .affix #usluge{
+        padding-top: 50px;
+    }
+
+    .coll6 h1{
+        text-align: center;
+        padding: 20px;
+    }
+
+    .coll6 img{
+        display: block;
+        margin: auto;
+    }
+
+   
+    .coll6-1{
+        border-bottom: solid 1px;
+        border-color: rgb(184, 184, 184);
+    }
+    .coll6-2{
+        padding: 20px;
+    }
+
+    .coll6-3{
+        border-left: solid 1px;
+        border-color: rgb(184, 184, 184);
+        padding: 20px;
+    }
+    .coll6-4{
+        padding: 20px;
+    
+    }
+
+    .coll6-5{
+        border-left: solid 1px;
+        border-color: rgb(184, 184, 184);
+        padding: 20px;
+    }
+    
+    .baner{
+        margin-top: 40px;
+        background: url(../images/image2.jpg) fixed;
+        background-size: cover;
+        width: 100%;
+        height: auto;
+        padding: 20px  auto;
+        text-align: center;
+        color: white;
+        padding: 100px 0px;
+    }
+
+    .baner h1{
+        font-size: 42px;
+        font-weight: 400;
+        margin-top: 17px;
+    }
+
+    .baner p{
+        font-size: 16px;
+        font-weight: 300;
+    }
+
+    .coll8{
+        width: 100%;
+        padding: 20px 0px;
+    }
+
+    .coll8 a:hover{
+        color: rgb(255, 255, 255);
+    }
+
+    .coll8 .nav>li>a{
+        margin-left: 2px;
+        margin-bottom: 2px;
+        background-color: black;
+        border: 0;
+        box-shadow: 4px 4px 2px rgb(211, 211, 211);
+    }
+
+    .coll8 .nav>li>a:hover {
+        background-color: rgb(1, 153, 140);
+       
+    }
+
+    .coll8 .nav>li>a:focus {
+        background-color: rgb(1, 153, 140);
+       
+    }
+
+    .coll81{
+      font-size: 12px;
+    }
+
+
+
+    .sakr{
+        display: none;
+    }
+
+    .c img{
+        width: 100%;
+        border-radius: 5px;
+        padding-bottom: 10px;
+    }
+
+    .c img:hover{
+       opacity: 0.7;
+       transform: scale(1.01);
+       transition: all 1s;
+       cursor: pointer;
+    }
+
+    .modal-image img{
+        width: 100%;
+    }
+
+    .full-Screen {
+        transform: scale(1.1);
+        transition: all 2s;
+    }
+
+    .infic{ 
+        background-color: #273133;
+        border: 0;
+        color: white;
+        font-weight: bold;
+    }
+
+    .infic:hover{ 
+        background-color: #2a6f84;
+        border: 0;
+        color: white;
+    }
+
+    .coll9{
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+      
+
+    .coll11{
+        padding-top: 70px;
+        padding-bottom: 70px;
+    }
+
+    .coll11 img{
+        width: 90%;
+        display: block;
+        margin: auto;
+    }
+
+    .coll12{
+        margin-top: 70px;
+        margin-bottom: 50px;
+    }
+
+    
+    .baner-1 i{
+        font-size: 25px;
+        padding: 20px;
+        border: 1px solid ;
+        border-radius: 50%;
+        width: 60px;
+        height: 60px;
+        margin: 5px;
+        transform: rotate(-360deg);
+        transition: all 1s;
+    }
+
+    .baner-1 i:hover{
+        background: rgb(0, 0, 0);
+        cursor: pointer;
+        border: 0;
+        transform: rotate(0deg);
+        transition: all 1s;
+    }
+
+    .coll13 p{
+        padding: 10px;
+        margin: 0px;
+    }
+
+    .coll13{
+        background: black;
+        color: white;
+    }
+
+
+ 
