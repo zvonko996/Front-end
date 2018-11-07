@@ -1,0 +1,579 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+#background{
+    height: 300px;
+    position: absolute;
+    z-index: -2;
+}
+
+header{
+    height: 300px;
+    width: 1348px;
+    overflow: hidden;
+    display: block;
+    position: relative;
+}
+
+#im1{
+    width: orange;
+    display: block;
+    width: 180px;
+    height: 150px;
+    margin: 0 auto;
+}
+#ind{
+    display: block;
+    margin: 80px auto;
+}
+#list{
+    position: absolute;
+    width: 100%;
+}
+
+#trans{
+    text-align: center;
+}
+
+.link{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.image{
+    float: left;
+    width: 400px;
+    height: 380px;
+    margin: 0px 14px;
+    overflow: hidden;
+    background-color: transparent;
+    position: relative;
+    
+}
+
+
+#boddy{
+    width: 1300px;
+    background: transparent;
+    height: 1000px;
+    display: block;
+    margin: 15px 25px;
+}
+
+.imff{
+width: 400px;
+margin-top: -5px;
+height: 130px;
+position: relative;
+}
+
+.imf{
+    width: 400px;
+    height: 250px;
+}
+
+#link{
+    text-decoration: none;
+    color: black;
+    
+}
+
+#p{
+    width: 50px;
+    height: 50px;
+}
+
+#oo{
+    position: absolute;
+    margin-top: 0px;
+    color: rgb(255, 255, 255);
+}
+#oo p{
+    position: absolute;
+    margin-top: -70px;
+    margin-left: 20px;
+    width: 330px;
+    font-size: 20px;
+}
+#oo h5{
+    position: absolute;
+    margin-top: -110px;
+    margin-left: 20px;
+    font-size: 24px;
+}
+#pa{
+    width: 60px;
+    height: 60px;
+    background-color: transparent;
+    padding: 5px;
+    margin-top: -80px;
+    margin-left: 330px;
+    position: absolute;
+}
+
+.image:hover #oo{
+opacity: 0.9;
+transition: 0.5s;
+}
+
+.dialog{
+    float: left;
+    margin: 50px 35px 10px 15px;
+    width: 600px;
+    text-align: justify;
+    
+}
+
+.dialog p{
+    margin-top: 20px;
+}
+
+.nex{
+    float: left;
+    width: 20px;
+    height: 20px;
+}
+
+.dugme{
+    margin-top: 15px;
+    width: 150px;
+    height: 75px;
+    background-color: rgb(59, 145, 167);
+}
+.dugme a{
+    text-decoration: none;
+}
+.dugme p{
+    line-height: 70px;
+    color: black;
+    font-weight: bold;
+    font-size: 18px;
+}
+.dugme img{
+    width: 45px;
+    margin: 15px 5px 20px 5px;
+    height: 40px;
+    float: left;
+}
+
+.dugme:hover{
+    opacity: 0.8;
+    transition: 1s;
+}
+
+.dugmee{
+    margin-top: 56px;
+    width: 150px;
+    height: 75px;
+    background-color: rgb(59, 145, 167);
+}
+.dugmee a{
+    text-decoration: none;
+}
+.dugmee p{
+    line-height: 70px;
+    color: black;
+    font-weight: bold;
+    font-size: 18px;
+}
+.dugmee img{
+    width: 45px;
+    margin: 15px 5px 20px 5px;
+    height: 40px;
+    float: left;
+}
+
+.dugmee:hover{
+    opacity: 0.8;
+    transition: 1s;
+}
+
+#muu{
+    width: 100%;
+    margin-top: 100px;
+}
+
+footer{
+    width: 100%;
+    height: 300px;
+    background-color: rgb(219, 219, 219);
+}
+
+#t{
+    width: 20px;
+    height: 20px;
+    margin-right:10px;
+    float: left;
+    background-color: transparent;
+}
+#foot1{
+    line-height: 30px;
+    margin-left: 150px;
+    display: block;
+    
+    width: 250px;
+    background-color: transparent;
+}
+
+
+#foot1 h1{
+   margin-bottom: 20px;
+}
+
+
+@media (max-width:1100px)
+{
+    *{
+        margin: 0px;
+        padding: 0px;
+        box-sizing: border-box;
+    }
+    #background{
+        height: 270px;
+        width: 1100px;
+    }
+  
+    #ind{
+        display: block;
+        margin: 30px ;
+        margin-left: 0px;
+    }
+
+    #boddy{
+        width: 1100px;
+        height: 950px;
+        display: block;
+        margin: 0px;
+    }
+    
+    .image{
+        width: 350px;
+        height: 380px;
+        margin: 0px 8px;
+    }
+    .imff{
+        width: 350px;
+        margin-top: -5px;
+        height: 130px;
+        position: relative;
+        }
+
+        .imf{
+            width: 350px;
+            height: 250px;
+        }
+
+        #pa{
+            margin-left: 280px;
+        }
+        #oo p{
+            font-size: 15px;
+            width: 255px;
+        }
+        #oo h5{
+            font-size: 20px;
+        }
+        .dialog{
+            width: 500px;
+        }
+        
+        .dialog p{
+            margin-top: 20px;
+        }
+        .dialog h1{
+            font-size: 25px;
+            font-weight: bold;
+
+        }
+        .dugmee{
+            margin-top: 80px;
+            width: 150px;
+            height: 75px;
+            background-color: rgb(59, 145, 167);
+        }
+        #muu{
+            width: 1100px;
+            margin-top: 20px;
+        }
+        footer{
+            width: 1100px;
+            height: 300px;
+            background-color: rgb(219, 219, 219);
+        }
+        header{
+            width:1100px;
+        }
+    }
+        @media (max-width:900px)
+        {
+            *{
+                margin: 0px;
+                padding: 0px;
+                box-sizing: border-box;
+            }
+            #background{
+                height: 270px;
+                width: 900px;
+            }
+          
+            #ind{
+                display: block;
+                margin: 30px ;
+                margin-left: 0px;
+            }
+        
+            #boddy{
+                width: 900px;
+                height: 950px;
+                display: block;
+                margin: 0px;
+            }
+       
+            .image{
+                float: left;
+                width: 280px;
+                height: 380px;
+                margin: 0px 10px;
+                overflow: hidden;
+                background-color: transparent;
+                position: relative;
+                
+            }
+            .imff{
+                width: 285px;
+                margin-top: -5px;
+                height: 130px;
+                position: relative;
+                }
+        
+                .imf{
+                    width: 285px;
+                    height: 250px;
+                }
+        
+                #pa{
+                    margin-left: 210px;
+                }
+                #oo p{
+                    font-size: 15px;
+                    width: 200px;
+                }
+                #oo h5{
+                    font-size: 20px;
+                }
+                .dialog{
+                    width: 400px;
+                }
+                
+                .dialog p{
+                    margin-top: 20px;
+                }
+                .dialog h1{
+                    font-size: 25px;
+                    font-weight: bold;
+        
+                }
+                .dugmee{
+                    margin-top: 80px;
+                    width: 150px;
+                    height: 75px;
+                    background-color: rgb(59, 145, 167);
+                }
+                #muu{
+                    width: 900px;
+                    margin-top: 20px;
+                }
+                footer{
+                    width: 900px;
+                    height: 300px;
+                    background-color: rgb(219, 219, 219);
+                }
+                header{
+                    width:900px;
+                }
+               
+       
+}
+
+@media (max-width:700px)
+{
+    *{
+        margin: 0px;
+        padding: 0px;
+        box-sizing: border-box;
+    }
+    #background{
+        height: 270px;
+        width: 700px;
+    }
+  
+    #ind{
+        display: block;
+        margin: 30px ;
+        margin-left: 0px;
+    }
+
+    #boddy{
+        width: 700px;
+        height: 1540px;
+        display: block;
+        margin: 0px;
+    }
+
+    .image{
+        width: 45%;
+        height: 380px;
+        margin: 0px 17px;
+        
+    }
+    .imff{
+        width:  100%;
+        margin-top: -5px;
+        height: 130px;
+        position: relative;
+        }
+
+        .imf{
+            width:  100%;
+            height: 250px;
+        }
+
+        #pa{
+            margin-left: 210px;
+        }
+        #oo p{
+            font-size: 15px;
+            width: 200px;
+        }
+        #oo h5{
+            font-size: 20px;
+        }
+        .dialog{
+            clear: both;
+            width: 90%;
+        }
+        
+        .dialog p{
+            margin-top: 20px;
+        }
+        .dialog h1{
+            margin-top: 0px;
+            font-size: 25px;
+            font-weight: bold;
+
+        }
+        .dugmee{
+            margin-top: 0px;
+            width: 150px;
+            height: 75px;
+            background-color: rgb(59, 145, 167);
+        }
+        #muu{
+            width: 700px;
+            margin-top: 20px;
+        }
+        footer{
+            width: 700px;
+            height: 300px;
+            background-color: rgb(219, 219, 219);
+        }
+        header{
+            width:700px;
+        }
+       
+
+}
+
+@media (max-width:450px)
+{
+    *{
+        margin: 0px;
+        padding: 0px;
+        box-sizing: border-box;
+    }
+    #background{
+        height: 270px;
+        width: 1000px;
+    }
+  
+    #ind{
+        display: block;
+        margin: 30px ;
+        margin-left: 0px;
+    }
+
+    #boddy{
+        width: 100%;
+        height: 2100px;
+        display: block;
+        margin: 0px;
+    }
+
+    .image{
+        width: 100%;
+        height: 380px;
+        margin: 0px ;
+        
+    }
+    .imff{
+        width:  100%;
+        margin-top: -5px;
+        height: 130px;
+        position: relative;
+        }
+
+        .imf{
+            width:  100%;
+            height: 250px;
+        }
+
+        #pa{
+            margin-left: 340px;
+        }
+        #oo p{
+            font-size: 15px;
+            width: 300px;
+        }
+        #oo h5{
+            font-size: 20px;
+        }
+        .dialog{
+            clear: both;
+            width: 90%;
+        }
+        
+        .dialog p{
+            margin-top: 20px;
+        }
+        .dialog h1{
+            margin-top: 0px;
+            font-size: 22px;
+            font-weight: bold;
+
+        }
+        .dugmee{
+            margin-top: 0px;
+            width: 150px;
+            height: 75px;
+            background-color: rgb(59, 145, 167);
+        }
+        #muu{
+            width: 100%;
+            margin-top: 20px;
+        }
+        footer{
+            width: 100%;
+            height: 300px;
+            background-color: rgb(219, 219, 219);
+        }
+        header{
+            width:100%;
+        }
+       
+
+}
+
