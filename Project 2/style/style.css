@@ -1,0 +1,741 @@
+/*
+Code snippet by maridlcrmn for Bootsnipp.com
+Follow me on Twitter @maridlcrmn
+*/
+.container-fluid{
+    padding: 0px;
+    border-right: 0px;
+}
+.navbar-brand { position: relative; z-index: 2; }
+
+.navbar-nav.navbar-right .btn { position: relative; z-index: 2; padding: 4px 20px; margin: 10px auto;  }
+
+.navbar .navbar-collapse { position: relative; overflow: hidden !important; }
+
+.navbar .nav-collapse { position: absolute; z-index: 1; top: 0; left: 0; right: 0; bottom: 0; margin: 0; padding-right: 120px; padding-left: 80px; width: 100%; }
+.navbar.navbar-default .nav-collapse { background-color: #f8f8f8; }
+.navbar.navbar-inverse .nav-collapse { background-color: #222; }
+.navbar .nav-collapse .navbar-form { border-width: 0; }
+.nav-collapse>li { float: right; }
+
+.btn.btn-outline { background-color: transparent; }
+
+.navbar-nav.navbar-right .btn:not(.collapsed) {
+    background-color: rgb(111, 84, 153);
+    border-color: rgb(111, 84, 153);
+    color: rgb(255, 255, 255);
+}
+
+
+
+
+@media screen and (max-width: 768px) {
+    .navbar .navbar-collapse .navbar-right  { padding-left: 15px; padding-right: 15px; } 
+    
+    .navbar .nav-collapse { margin: 7.5px auto; padding: 0; }
+    .navbar .nav-collapse .navbar-form { margin: 0; }
+    .nav-collapse>li { float: none; } 
+}
+
+/*----------------------------KONTAKT-------------------------*/
+
+
+.contact-content{
+    text-align: center;
+    background-color: white;
+    
+}
+.contact-content form{
+    padding-bottom: 55px;
+}
+#divce{
+    font-style: italic;
+    margin-bottom: 15px;
+    text-align: justify;
+    width: 500px;
+    display: block;
+    margin: auto;
+    margin-top: 100px;
+}
+#share{
+    color: white;
+    background-color: rgb(0, 0, 0);
+    text-align: center;
+    margin-top: 3.5%;
+}
+
+footer{
+    background-color: rgb(17, 17, 17);
+    
+}
+@media(max-width:500px)
+{
+    form .form-element{
+        width: 100%;
+    }
+    form .txarea{
+        max-width: 100%;
+        max-height: 100px;
+    }
+    #divce{
+        width: 95%;
+        margin-top: 60px;
+        font-size: 12px;
+    }
+}
+
+/*---------------------------FOOTER -------------------------*/
+
+
+/*=========================
+  Icons
+ ================= */
+
+/* footer social icons */
+ul.social-network {
+    list-style: none;
+    display: inline;
+    margin-left:0 !important;
+    padding: 0;
+}
+ul.social-network li {
+    display: inline;
+    margin: 0 5px;
+}
+
+
+/* footer social icons */
+.social-network a.icoRss:hover {
+    background-color: #F56505;
+}
+.social-network a.icoFacebook:hover {
+    background-color:#3B5998;
+}
+.social-network a.icoTwitter:hover {
+    background-color:#33ccff;
+}
+.social-network a.icoGoogle:hover {
+    background-color:#BD3518;
+}
+.social-network a.icoVimeo:hover {
+    background-color:#0590B8;
+}
+.social-network a.icoLinkedin:hover {
+    background-color:#007bb7;
+}
+.social-network a.icoRss:hover i, .social-network a.icoFacebook:hover i, .social-network a.icoTwitter:hover i,
+.social-network a.icoGoogle:hover i, .social-network a.icoVimeo:hover i, .social-network a.icoLinkedin:hover i {
+    color:rgb(114, 23, 0);
+}
+a.socialIcon:hover, .socialHoverClass {
+    color:#44BCDD;
+}
+
+.social-circle li a {
+    display:inline-block;
+    position:relative;
+    margin:0 auto 0 auto;
+    -moz-border-radius:50%;
+    -webkit-border-radius:50%;
+    text-align:center;
+    width: 50px;
+    height: 50px;
+    font-size:20px;
+}
+.social-circle li i {
+    margin:0;
+    line-height:50px;
+    text-align: center;
+}
+
+.social-circle li a:hover i, .triggeredHover {
+    -moz-transform:  rotate(360deg);
+    -webkit-transform:  rotate(360deg);
+    -ms--transform:  rotate(360deg);
+    -moz-transition: all 0.2s;
+    -o-transition: all 0.2s;
+    -ms-transition: all 0.2s;
+}
+.social-circle i {
+    color: rgb(182, 247, 151);
+    -webkit-transition: all 0.8s;
+    -moz-transition: all 0.8s;
+    -o-transition: all 0.8s;
+    -ms-transition: all 0.8s;
+}
+
+.social-circle li a {
+ background-color: rgba(196, 94, 10, 0.815);   
+}
+
+
+/*------------------------O nama ---------------------*/
+
+h2 {
+    color: #4C4C4C;
+    word-spacing: 5px;
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom:30px;
+    font-family: 'Raleway', sans-serif;
+}
+.img-rounded{
+    height: 350px;
+}
+.ion-minus{
+    padding:0px 10px;
+}
+
+.team{
+    background-color:#f6f6f6;
+    padding:60px 0px;
+    font-family: 'Raleway', sans-serif;
+}
+
+.team h4 {
+    margin-top: 20px;
+    color: #5db4c0;
+}
+
+.team .fa{
+    color: #5db4c0;
+    font-size: 18px;
+    margin-top: 10px;
+    padding: 3px;
+}
+
+
+
+
+/*-----------------------ZDRAVSTVO---------------------*/
+#myCarousel .carousel-caption {
+    left:0;
+    right:0;
+    bottom:0;
+    text-align:left;
+    padding:10px;
+    background:rgba(0, 0, 0, 0.26); 
+}
+#myCarousel .list-group {
+    position:absolute;
+    top:0;
+    right:0;
+}
+#myCarousel .list-group-item {
+    cursor:pointer;
+}
+#myCarousel .list-group .active {
+    background-color:#eee;  
+}
+
+@media (min-width: 992px) { 
+    #myCarousel {padding-right:33.3333%;}
+    #myCarousel .carousel-controls {display:none;}  
+}
+@media (max-width: 991px) { 
+    .carousel-caption p,
+    #myCarousel .list-group {display:none;} 
+}
+#pma{
+    width: 80%;
+    margin-left: 8%;
+}
+#pma h1.hheader{
+    margin-top: 6%;
+    color: #333;
+    padding-bottom: 3%;
+}
+
+.navbar{
+    border-radius: 0px;
+}
+/*--------------------------POCETNA--------------------------*/
+
+
+#modall{
+    display: block;
+    margin: auto;
+    width: 100%;
+}
+
+#tekst-pozadine{
+    background-color: transparent;
+    text-align: center;
+    margin:0px auto;
+    position: absolute;
+    width: 80%;
+    margin-top: 100px;
+    font-size: 40px;
+    margin-left: 10%;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    z-index: 1;
+    
+}
+
+
+#tekst-pozadine p{
+    font-size: 30px;
+}
+
+#panel, #flip {
+    padding: 5px;
+    text-align: center;
+    background-color: rgb(219, 219, 219);
+    border: solid 1px #000000;
+    width:100%;
+    color: rgb(0, 0, 0);
+}
+#panel > img{
+    display: block;
+    margin: auto;
+}
+
+#panel {
+    padding: 50px;
+    display: none;
+    width:100%;
+    font-size: 25px;
+    text-align: justify;
+    
+}
+
+#primena{
+    color: black;
+    text-align: center;
+    margin: 0px;
+}
+
+.aaa > img > a{
+    float: left;
+}
+
+
+.industrija{
+background-color: rgb(14, 23, 31);
+color: rgb(255, 255, 255);
+text-align: justify;
+padding: 20px;
+margin: 0px;
+}
+
+#share{
+    margin: 0px;
+    padding: 10px;
+    width: 100%;
+}
+.industrija h3{
+text-align: left;
+}
+.aaaa > img{
+    float: left;
+    height: 120px;
+    width: 120px;
+
+}
+
+#imgcarousell{
+    width: 100%;
+    height: 500px;
+}
+
+@media(max-width:950px)
+{
+    #imgcarousell{
+        width: 100%;
+        height: 400px;
+    }
+
+    #tekst-pozadine{
+        font-size: 25px;
+    }
+    #tekst-pozadine p{
+        font-size: 20px;
+    }
+    #panel {
+        font-size: 20px;
+        }
+       
+}
+
+@media(max-width:600px)
+{
+    #imgcarousell{
+        width: 100%;
+        height: 350px;
+    }
+
+    #tekst-pozadine{
+        font-size: 25px;
+    }
+    #tekst-pozadine p{
+        font-size: 15px;
+    }
+    #panel {
+    font-size: 15px;
+    }
+    #flip h1{
+        font-size: 20px;
+        font-weight: bold;
+    }
+    #primena h1{
+        font-size: 20px;
+        font-weight: bold;
+    }
+    .industrija h1{
+        font-size: 25px;
+        font-weight: bold;
+    }
+    .industrija h3{
+        font-size: 20px;
+        font-weight: bold;
+    }
+ 
+}
+@media(max-width:500px)
+{
+    
+
+    #tekst-pozadine{
+        font-size: 18px;
+        width: 90%;
+        margin-left: 5%;
+    }
+    #tekst-pozadine p{
+        font-size: 15px;
+    }
+    #flip h1{
+        font-size: 15px;
+        font-weight: bold;
+        
+    }
+    .industrija h1{
+        font-size: 20px;
+        font-weight: bold;
+    }
+    .industrija
+    {
+        margin-bottom: 0px;
+    }
+    .industrija h3{
+        font-size: 17px;
+        font-weight: bold;
+    }
+    #panel {
+        padding: 20px;
+    }
+}
+
+
+
+/*---------------PAMETNI GRAD----------*/
+
+/*Stranica Iot */
+#imgcarousel
+{
+    width: 100%;
+    height: 500px;
+}
+
+#iotstr{
+    width: 90%;
+    display: block;
+    margin: auto;
+    background-color: rgb(255, 255, 255);
+    border-radius: 30px;
+    color: black;
+}
+#iotstr h1{
+text-align: center;
+}
+#iotstr p{
+text-align: justify;
+padding: 15px;
+font-size: 20px;
+font-family:"Bahnschrift";
+}
+@media(max-width:900px)
+{
+    #imgcarousel{
+        height: 300px;
+    }
+}
+@media(max-width:600px)
+{
+    #iotstr p{
+        font-size: 15px;
+    }
+    #imgcarousel{
+        height: 200px;
+    }
+   
+}
+
+/*Stranica pametni gradovi*/
+
+
+
+.ss{
+    border: solid black 2px;
+    border-radius: 10px;
+    background-color: white;
+    text-align: justify;
+    padding: 10px;
+    font-size: 18px;
+    font-family:Bahnschrift;
+}
+#nevidljivo{
+    position: absolute;
+    padding-top: 60px;
+    padding-left: 35%;
+    margin: 0px;
+    z-index: 2;
+    display: none;
+}
+.ss:hover > #nevidljivo{
+    background-color: rgb(191, 201, 200);
+    color: black;
+    display: block;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    margin-top: -10px;
+    margin-left: -10px;
+    cursor: pointer;
+}
+a{
+    color: black;
+}
+
+.rowww{
+    width: 90%;
+    color: black;
+    display: block;
+    margin: auto;
+}
+
+/*heder za pametnaarhitektura.html*/
+
+header{
+    margin: 0px;
+    margin-top: -20px;
+    padding: 10px;
+    color: rgb(255, 255, 255);
+    background-color:  rgb(17, 17, 17);
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#pma{
+    width: 60%;
+    display: block;
+    margin: auto;
+    background-color: rgb(255, 255, 255);
+    border-radius: 30px;
+    color: black;
+    margin-bottom: 20px;
+}
+#pma h1{
+text-align: center;
+}
+#pma p{
+text-align: justify;
+padding: 15px;
+font-size: 20px;
+font-family:Bahnschrift;
+}
+@media(max-width:950px)
+{
+
+    #pma p{
+        font-size: 18px;
+    }
+    #pma{
+        width: 80%;
+    }
+    
+    header > h1{
+        font-size: 25px;
+    }
+}
+@media(max-width:650px)
+{
+   
+    .ss > h3{
+        font-size: 17px;
+    }
+    .ss > p{
+        font-size: 15px;
+    }
+  
+    .a{
+        width: 100%;
+        height: 300px;
+    }
+
+    #pma p{
+        font-size: 15px;
+    }
+    #pma{
+        width: 90%;
+    }
+    
+    header > h1{
+        font-size: 25px;
+    }
+}
+
+
+/*Stranica transport */
+
+#transport{
+
+}
+
+
+.a{
+    height: 500px;
+    width: 100%;
+    display: block;
+    margin: auto;
+}
+
+.roww{
+    width: 70%;
+    display: block;
+    margin: auto;
+    margin-bottom: 10px;
+    color: black;
+}
+
+#park, #transimg{
+    display: block;
+    margin: auto;
+    border: 1px solid;
+    margin-bottom: 20px;
+}
+
+/*heder za pametnaarhitektura.html*/
+
+header{
+    margin: 0px;
+    margin-top: -20px;
+    padding: 10px;
+    color: rgb(255, 255, 255);
+    background-color:  rgb(17, 17, 17);
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#transport{
+    width: 70%;
+    border: 2px solid black;
+    border-radius: 10px;
+    display: block;
+    margin: auto;
+    background-color: rgb(255, 255, 255);
+    color: black;
+    margin-bottom: 20px;
+    margin-top: 30px;
+}
+#transport h1{
+text-align: center;
+}
+#transport p{
+text-align: justify;
+padding: 15px;
+font-size: 20px;
+font-family:Bahnschrift;
+}
+#zdr{
+    width: 100%;
+    height: 550px;
+    margin-bottom: 15px;
+}
+@media(max-width:950px)
+{
+    .roww{
+        width: 80%;
+    }
+    #transport p{
+        font-size: 18px;
+    }
+    #transport{
+        width: 80%;
+    }
+ 
+    
+    header > h1{
+        font-size: 25px;
+    }
+}
+@media(max-width:650px)
+{
+    #transport h1,h3{
+        font-size: 20px;
+        font-weight: bold;
+    }
+    .ss > h3{
+        font-size: 17px;
+    }
+    .ss > p{
+        font-size: 15px;
+    }
+    #transport p{
+        font-size: 15px;
+    }
+    #transport{
+        width: 90%;
+    }
+    .a{
+        width: 100%;
+        height: 300px;
+    }
+
+    #transport p{
+        font-size: 15px;
+    }
+    #transport{
+        width: 90%;
+    }
+    
+    header > h1{
+        font-size: 25px;
+    }
+    #zdr{
+        height: 300px;
+    }
+    .roww{
+        width: 90%;
+    }
+}
+#myCarousel{
+    padding: 0px;
+}
+
+
+.aaaaaa{
+margin-top: -20px;
+}
+
+/* Stranica standardi */
+
+#stand{
+    width:100%; 
+    height:400px;
+}
+
+@media (max-width: 700px) { 
+    #stand{
+        width:100%; 
+        height:300px;
+    }
+}
+
+@media (max-width: 500px) { 
+    #stand{
+        width:100%; 
+        height:200px;
+    }
+}
+
